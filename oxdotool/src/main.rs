@@ -9,6 +9,7 @@ fn main() {
         .version("0.1.0")
         .about("Emulates inputs in X")
         .setting(AppSettings::ArgRequiredElseHelp)
+        .setting(AppSettings::ColoredHelp)
         .setting(AppSettings::VersionlessSubcommands)
 
         .subcommand(SubCommand::with_name("type")
